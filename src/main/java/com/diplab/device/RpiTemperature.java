@@ -11,7 +11,7 @@ public class RpiTemperature {
 	//This directory created by 1-wire kernel modules
 	  static String w1DirPath = "/sys/bus/w1/devices";
 	private static BufferedReader br;
-	private static String filename = "28-0000062f4831";
+	private static String filename = "28-0000062f9ad9";
 	  
 	  public static double getTemperature(){
 		  double value = 0;
